@@ -75,7 +75,7 @@ export default {
 
 		weatherDisplay() {
 			const description = this.weather.weather[0].description;
-			// Deixa a primeira letra como maiuscula
+			// Deixa primeira letra como maiuscula
 			const weather = description.charAt(0).toUpperCase() + description.slice(1);
 			return weather;
 		},
